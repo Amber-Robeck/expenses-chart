@@ -18,6 +18,8 @@ main {
     justify-content: center;
     align-items: center;
     height: 90vh;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
 }
 
 .budget-header {
@@ -26,13 +28,21 @@ main {
     height: 10vh;
     margin: 1rem;
     border-radius: 1rem;
-    padding: .5rem;
+    padding: 2rem;
 }
 
 .budget-graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
     width: 40%;
     height: 30vh;
     border-radius: 1rem;
-    padding: .5rem;
+    padding: 2rem;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
 }
