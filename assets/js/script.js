@@ -44,7 +44,9 @@ span.forEach((day) =>
             console.log(day.innerText, item.amount)
             // day.innerText = day.innerText + item.amount
             let div = document.createElement('div');
-            div.setAttribute('class', 'bubble');
+            div.setAttribute('data-amount', item.amount);
+            div.style.height = 2 * item.amount + 'px';
+            div.style.background = 'red';
             div.innerText = item.amount
             day.prepend(div)
         }
