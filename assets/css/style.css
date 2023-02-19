@@ -37,7 +37,7 @@ main {
     justify-content: space-between;
     background-color: white;
     width: 40%;
-    height: 30vh;
+    min-height: 400px;
     border-radius: 1rem;
     padding: 2rem;
 }
@@ -45,4 +45,11 @@ main {
 .stats {
     display: flex;
     justify-content: space-between;
+}
+
+.graph {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
